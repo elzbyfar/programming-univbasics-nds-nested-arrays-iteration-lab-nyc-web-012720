@@ -11,7 +11,7 @@ def join_ingredients(src)
       end 
     x += 1 
    end 
-  p food_arr
+  puts food_arr
 end
 
 join_ingredients(foods)
