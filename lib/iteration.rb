@@ -1,11 +1,5 @@
 foods = [["cheese", "bacon"], ["ham", "potatoes"], ["apples", "oranges"]]
 
-foods.length.times do |x|
-  
-end 
-
-
-
 def join_ingredients(src)
   food_arr = []
     x = 0 
