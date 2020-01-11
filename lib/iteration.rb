@@ -1,5 +1,13 @@
 foods = [["cheese", "bacon"], ["ham", "potatoes"], ["apples", "oranges"]]
 
+new_arr = []
+z = 0 
+while z < foods.length do 
+  new_arr << "I like #{foods[z][0]} and #{foods[z][1]}."
+end 
+
+puts new_arr
+
 def join_ingredients(src)
   food_arr = []
     x = 0 
