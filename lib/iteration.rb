@@ -5,10 +5,9 @@ def join_ingredients(src)
     x = 0 
   while x < src.length do 
     y = 0
-    
+    food_arr << "I love #{src[x][y]} and #{src[x][y + 1]} on my pizza"
       while y < src[x].length do 
         y += 1 
-        food_arr << "I love #{src[x][y]} and #{src[x][y + 1]} on my pizza"
       end 
     x += 1 
    end 
