@@ -1,4 +1,4 @@
-foods = [["cheese", "bacon", "pepperoni"], ["ham", "potatoes"], ["apples", "oranges"]]
+foods = [["cheese", "bacon"], ["ham", "potatoes"], ["apples", "oranges"]]
 
 def join_ingredients(src)
   food_arr = []
