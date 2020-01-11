@@ -1,3 +1,5 @@
+foods = [["cheese", "bacon"], ["ham", "potatoes"], ["apples", "oranges"]]
+
 def join_ingredients(src)
   food_arr = []
     x = 0 
@@ -11,6 +13,8 @@ def join_ingredients(src)
    end 
   food_arr
 end
+
+join_ingredients(foods)
 
 
 def find_greater_pair(src)
