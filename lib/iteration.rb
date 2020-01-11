@@ -32,7 +32,7 @@ def find_greater_pair(src)
   while x < src.length do 
     y = 0 
     if src[x][y] > src[x][y + 1]
-        max_arr.push(src[x][y])
+        max_arr << src[x][y]
       else
         max_arr << src[x][y + 1]
       end
